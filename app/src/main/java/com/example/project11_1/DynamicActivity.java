@@ -44,7 +44,7 @@ public class DynamicActivity extends AppCompatActivity {
                 item.add(editName.getText().toString());
                 editName.setText("");
                 editName.setHint("이름을 입력");
-                arrayAdapter.notifyDataSetChanged(); //리스트 뷰를 재구성하는
+                arrayAdapter.notifyDataSetChanged(); //리스트 뷰를 재구성하는 코드
             }
         });
     }
