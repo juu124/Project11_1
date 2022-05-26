@@ -17,7 +17,6 @@ import com.example.project11_1.databinding.ActivityCustomBinding;
 
 public class CustomActivity extends AppCompatActivity {
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
