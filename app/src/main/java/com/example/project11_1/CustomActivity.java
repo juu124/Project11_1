@@ -20,6 +20,7 @@ public class CustomActivity extends AppCompatActivity {
         ListViewAdapter adapter = new ListViewAdapter();
         customListView.setAdapter(adapter);
 
+        //원래 여기에 DB가 들어와야 한다.
         adapter.addItem(ContextCompat.getDrawable(this, R.drawable.cat), "고양이", "고양이입니다.");
         adapter.addItem(ContextCompat.getDrawable(this, R.drawable.rabbit), "토끼", "토끼다.");
         adapter.addItem(ContextCompat.getDrawable(this, R.drawable.dog), "강아지", "강아지입니다.");

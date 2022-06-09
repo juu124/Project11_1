@@ -35,8 +35,9 @@ public class ListViewAdapter extends BaseAdapter {
         //뷰가 여기서 convertView라고 한다.
         if(convertView == null){
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            //첫번째 인수는어떤 xml 파일인지 지정한다. 두번째 인수는 어디서 붙일 것이냐
+            //첫번째 인수는 어떤 xml 파일인지 지정한다. 두번째 인수는 어디서 붙일 것이냐 지정
             convertView = inflater.inflate(R.layout.listview_item, viewGroup, false);
+
 
             ImageView iconImageView = convertView.findViewById(R.id.imageView1);
             TextView titleTextView = convertView.findViewById(R.id.textView1);
